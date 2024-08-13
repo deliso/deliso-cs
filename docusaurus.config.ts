@@ -3,20 +3,20 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Teaching Myself CS',
+  tagline: 'Follow my self-taught Computer Science journey',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://cs.deliso.me',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'deliso', // Usually your GitHub org/user name.
+  projectName: 'deliso-cs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -38,22 +38,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+            'https://github.com/deliso/deliso-cs/blob/main',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -66,7 +51,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'TMCS',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -76,11 +61,10 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Curriculum',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/deliso/deliso-cs',
           label: 'GitHub',
           position: 'right',
         },
@@ -93,43 +77,39 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Curriculum',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Resources',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Bachelor Degree in Informatics Engineering (UPC)',
+              href: 'https://www.fib.upc.edu/en/studies/bachelors-degrees/bachelor-degree-informatics-engineering',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'OpenCourseWare (MIT)',
+              href: 'https://ocw.mit.edu/',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'About Me',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'GitHub',
+              href: 'https://github.com/deliso',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://linkedin.com/in/smoraleslopez',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Deliso. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

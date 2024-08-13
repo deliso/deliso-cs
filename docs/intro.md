@@ -1,47 +1,14 @@
 ---
 sidebar_position: 1
+title: My Learning Journey
+description: Tracking my progress across multiple subjects as part of my CS education.
 ---
 
-# Tutorial Intro
+# Welcome to My Learning Journey
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to my personal study tracker! Here, I document my progress as I teach myself Computer Science. This site is a central hub where I keep all my study materials, notes, and progress tracking for the subjects I am learning.
 
-## Getting Started
 
-Get started by **creating a new site**.
+## About This Project
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+This Docusaurus site is a work-in-progress documentation of my learning journey. It helps me stay organized and motivated, and I hope it might be useful to others on a similar path.
